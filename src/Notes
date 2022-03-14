@@ -1,4 +1,6 @@
-Card format : "Black-1"
+Card format : "Spades-Ace"
+set of 52 playing cards; 13 of each suit: clubs, diamonds, hearts, and spades
+Ace	2	3	4	5	6	7	8	9	10	Jack	Queen	King
 So that you can get the number and color using the the index of "-"
 Have 2 stacks of black and red cards
 make a final array of the order of the cards in the check method
