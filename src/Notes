@@ -1,0 +1,4 @@
+Card format : "Black-1"
+So that you can get the number and color using the the index of "-"
+Have 2 stacks of black and red cards
+make a final array of the order of the cards in the check method

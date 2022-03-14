@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class Solitaire {
     //logic
-    public Solitaire(){
-
-    }
+    public Solitaire(){}
 
     public void startGame(){
         System.out.println("Welcome to Java Solitaire!");
@@ -74,10 +72,11 @@ public class Solitaire {
         System.out.println("Game Reset Successful");
     }
     private boolean makeMove(){
+        System.out.println("Move Made");
        return true; // true if move successful
     }
     private void getHint(){
-        System.out.println("Hunt Acquired");
+        System.out.println("Hint Acquired");
     }
     private void getCard(){
         System.out.println("Card Acquired");
