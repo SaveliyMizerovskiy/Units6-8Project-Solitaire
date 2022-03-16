@@ -8,6 +8,17 @@ public class Deck {
     }
 
     public void createDeck(){
-
+        for (int i = 0; i < 13; i++) {
+            deck.add(new Card(i, "Clubs"));
+        }
+        for (int i = 0; i < 13; i++) {
+            deck.add(new Card(i, "Diamonds"));
+        }
+        for (int i = 0; i < 13; i++) {
+            deck.add(new Card(i, "Hearts"));
+        }
+        for (int i = 0; i < 13; i++) {
+            deck.add(new Card(i, "Spades"));
+        }
     }
 }
